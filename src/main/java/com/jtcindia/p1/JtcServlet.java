@@ -15,6 +15,7 @@ public class JtcServlet  extends HttpServlet{
 	String email;
 	String state;
 	String country;
+	String pincode;
 	
 	public void init(ServletConfig sc) {
 		System.out.println("TestServlet-init()");
